@@ -82,27 +82,6 @@ BrightWorks is a role-based household service management platform that allows:
 
 -Chart.js (for admin analytics)
 
-# Project Structure
-
-project/
-│── app.py
-│── models.py
-│── database.db
-│── requirements.txt
-│── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│── templates/
-│   ├── admin/
-│   ├── customer/
-│   ├── professional/
-│   └── shared/
-│── README.md
-
-
-
-
 
 # # How to Run the Project
 
