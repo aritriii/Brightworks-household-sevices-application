@@ -5,10 +5,14 @@ A multi-user web application designed to connect customers with home-service pro
 
 # # Project Overview
 
--BrightWorks is a role-based household service management platform that allows:
+BrightWorks is a role-based household service management platform that allows:
+
 -Customers to browse services, raise service requests, and track status
+
 -Service Professionals to manage requests assigned to them
+
 -Admin to oversee users, services, analytics, and platform activity
+
 -This project demonstrates full-stack development using Flask, SQLite, Jinja2, and Bootstrap, integrating backend logic, a dynamic frontend, and persistent data storage.
 
  
@@ -17,42 +21,65 @@ A multi-user web application designed to connect customers with home-service pro
 # Role-Based System
 
 # Admin
+
 -Manage customers and service professionals
+
 -Add/modify services
+
 -Monitor service requests
+
 -View analytics dashboards (Chart.js)
 
 # Service Professionals
+
 -View assigned requests
+
 -Update request status
+
 -Manage personal profile
 
 # Customers
+
 -Register and log in
+
 -Raise service requests
+
 -Track request history
 
 # # Core Functionalities
 
 -Secure user login system (role-based)
+
 -CRUD operations for services and requests
+
 -Interactive admin dashboard with charts
+
 -Responsive UI using Bootstrap
+
 -Database-backed architecture with SQLite
 
 # # Technology Stack
 
 # Backend
+
 -Flask
+
 -SQLAlchemy
+
 -SQLite
+
 -Datetime (Python)
 
 # Frontend
+
 -HTML
+
 -CSS
+
 -Bootstrap
+
 -Jinja2
+
 -Chart.js (for admin analytics)
 
 # Project Structure
@@ -99,14 +126,19 @@ You can watch the complete demo here:
 # # Limitations
 
 -API endpoints were not implemented due to time constraints
+
 -Basic login system (no advanced authentication such as Flask-Login)
+
 -Limited error handling in some flows
 
 # # About the Developer
 
 Name: Aritri Sarkar
+
 Roll No: 23f2004529
+
 Course: Modern Application Development – I
+
 Email: 23f2004529@ds.study.iitm.ac.in
 
 “I’m passionate about solving problems and learning new technologies. BrightWorks helped me understand full-stack development using Flask, SQL, and Bootstrap.”
@@ -114,6 +146,9 @@ Email: 23f2004529@ds.study.iitm.ac.in
 # # Future Improvements
 
 -Implement REST APIs
+
 -Integrate Flask-Login for secure authentication
+
 -Add payment gateway integration
+
 -Include push notifications for request updates
